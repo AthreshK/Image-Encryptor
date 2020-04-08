@@ -1,0 +1,66 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1194148695" file="C:\Users\athre\Documents\MATLAB\ImageEncryptor.prj" location="C:\Users\athre\Documents\MATLAB" name="ImageEncryptor" target="target.mlapps" target-name="Package App">
+    <param.appname>ImageEncryptor</param.appname>
+    <param.authnamewatermark>Athresh Kiran</param.authnamewatermark>
+    <param.email>athresh.kiran@gmail.com</param.email>
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\ImageEncryptor_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\ImageEncryptor_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\ImageEncryptor_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\ImageEncryptor_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>MATLAB program that helps to encrypt and decrypt an image. MiniProject for WinterSem2019</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\athre\Documents\MATLAB</param.output>
+    <param.guid>80ac27a9-385e-4ea4-b85e-0f63ddcd595b</param.guid>
+    <unset>
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\key.jpg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\athre\Documents" name="MATLAB" optional="false">C:\Users\athre\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>G:\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
